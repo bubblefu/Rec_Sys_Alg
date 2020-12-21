@@ -1,1 +1,2 @@
-# Rec_Sys_Alg
+# recommendation_for_students
+Code for an enterprise recommendation system
