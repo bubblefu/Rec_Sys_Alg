@@ -15,7 +15,7 @@ class MongoDB(object):
     def __init__(self, db):  # 在内部已经定义好了MongoDB账号(本地or云)外部调用直接传入数据库名称即可
         # 定义初始化方法
         # 写在init里，节省内存开销
-        # mongo_client = self._connect('47.104.154.74', '21999', '', '', db)
+        # mongo_client = self._connect('xxxxx', '21999', '', '', db)
         mongo_client = self._connect('localhost', '27017', '', '',
                                      db)  # 遍历数据库连接
         self.sina_news_rec_db = mongo_client[db]  # 选择MongoDB数据库
