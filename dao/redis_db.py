@@ -15,6 +15,6 @@ class Redis:
         self.redis = redis.StrictRedis(host='r-m5e8kd481g3boqztfhpd.redis.rds'
                                             '.aliyuncs.com',
                                        port=6379,
-                                       password='Ipeaking123',
+                                       password='xxxxxx',
                                        decode_responses=True,
                                        db=18)
